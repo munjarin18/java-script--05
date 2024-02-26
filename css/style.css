@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    font-family: sans-serif;
+    padding-left: 10px;
+    background-color: antiquewhite;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.type {
+    position: relative;
+}
+.type::after{
+    content: '';
+    position:absolute;
+    top:10%;
+    height:20px;
+    width: 3px;
+    right:-5px;
+    background-color: #000;
+ 
+}
